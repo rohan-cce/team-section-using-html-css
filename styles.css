@@ -74,6 +74,20 @@ section::after{
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    
+    border: 10px solid rgba(0,0,0,0.25);
 
+}
+.container .card .content .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .card .content .contentBx h3 span{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
 }
