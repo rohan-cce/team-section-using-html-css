@@ -12,6 +12,67 @@ body{
     background:#161623;
     min-height:100vh;
 }
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    font-size: 30px;
+    align-items: center;
+
+ 
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    align-items: center;
+    /* text-align: center; */
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    /* text-align: center; */
+    align-items: center;
+    transform-origin: bottom left;
+  }
 
 section::before{
     content:'';
