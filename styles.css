@@ -66,6 +66,7 @@ section::after{
 }
 .container .card:hover .content{
     opacity: 1;
+    transform: translateY(-20px);
 }
 
 .container .card .content .imgBx{
@@ -114,6 +115,7 @@ section::after{
     transition-delay: calc(0.1s * var(--i));
 }.container .card:hover .sci li{
     transform: translateY(0px);
+    opacity: 1;
 }
 .container .card .sci li a{
     color: #fff;
