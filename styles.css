@@ -91,3 +91,18 @@ section::after{
     font-weight: 300;
     text-transform: initial;
 }
+.container .card .sci{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+}
+.container .card .sci li{
+    list-style: none;
+    margin: 0 10px;
+    transform:translateY(40px);
+    transition: 0.5s;
+}
+.container .card .sci li a{
+    color: #fff;
+    font-size: 24px;
+}
