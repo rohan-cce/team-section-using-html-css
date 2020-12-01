@@ -108,9 +108,12 @@ section::after{
 }
 .container .card .sci li{
     list-style: none;
-    margin: 0 10px;
+    margin: 0 10px; 
     transform:translateY(40px);
     transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+}.container .card:hover .sci li{
+    transform: translateY(0px);
 }
 .container .card .sci li a{
     color: #fff;
