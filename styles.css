@@ -48,4 +48,32 @@ section::after{
     height: 400px;
     background: rgba(255, 255,255, 0.05);
     box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.container .card .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5%;
+
+}
+.container .card:hover .content{
+    opacity: 1;
+}
+
+.container .card .content .imgBx{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+
 }
