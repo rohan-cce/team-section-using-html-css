@@ -40,7 +40,11 @@ section::after{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin: 40px 0;
+    margin: 40px 20px;
+
+}
+.card{
+    margin: 20px 10px;
 }
 .container .card{
     position: relative;
@@ -93,8 +97,9 @@ section::after{
     font-weight: 500;
     font-size: 18px;
     text-align: center;
-    margin: 20px 0 10px;
+    margin: 20px 10px;
     line-height: 1.1em;
+    
 
 }
 .container .card .content .contentBx h3 span{
