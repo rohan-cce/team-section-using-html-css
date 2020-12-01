@@ -42,15 +42,20 @@ h1 {
     display: inline-block;
     position: relative;
     color: #0087ca;
-    text-align: center;
-    margin: auto;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    font-size: 30px;
+    align-items: center;
 
  
   }
   
   .hover-underline-animation:after {
     content: '';
-    text-align: center;
+    align-items: center;
+    /* text-align: center; */
     position: absolute;
     width: 100%;
     transform: scaleX(0);
@@ -64,9 +69,11 @@ h1 {
   
   .hover-underline-animation:hover:after {
     transform: scaleX(1);
-    text-align: center;
+    /* text-align: center; */
+    align-items: center;
     transform-origin: bottom left;
   }
+
 section::before{
     content:'';
     position: absolute;
